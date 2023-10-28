@@ -1,0 +1,40 @@
+body {
+  font-family: monospace;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: rgba(105, 9, 105, 0.895);
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: rgba(105, 9, 105, 0.895);
+}
+
+td,
+th {
+  border-bottom: solid;
+  border-color: rgba(105, 9, 105, 0.895);
+  font-size: 15px;
+}
+
+th {
+  font-weight: bold;
+  background-color: rgb(223, 181, 223);
+}
+
+.border-none {
+  border-bottom: none;
+}
